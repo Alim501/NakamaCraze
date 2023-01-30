@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NakamaCraze/static/css/main.5db7cd27.css",
-    "main.js": "/NakamaCraze/static/js/main.44300939.js",
+    "main.css": "/NakamaCraze/static/css/main.a9f36568.css",
+    "main.js": "/NakamaCraze/static/js/main.4d1c4fdf.js",
     "static/js/787.442138c0.chunk.js": "/NakamaCraze/static/js/787.442138c0.chunk.js",
     "static/media/logo.gif": "/NakamaCraze/static/media/logo.058dbc2e093e99bee3f6.gif",
     "static/media/MisatoGreen.png": "/NakamaCraze/static/media/MisatoGreen.517c256152a5244c9025.png",
@@ -34,12 +34,12 @@
     "static/media/RoadRadio-Light.woff": "/NakamaCraze/static/media/RoadRadio-Light.fc351fca4e6052f33441.woff",
     "static/media/craze.png": "/NakamaCraze/static/media/craze.d26070c079fc2d1b96ef.png",
     "index.html": "/NakamaCraze/index.html",
-    "main.5db7cd27.css.map": "/NakamaCraze/static/css/main.5db7cd27.css.map",
-    "main.44300939.js.map": "/NakamaCraze/static/js/main.44300939.js.map",
+    "main.a9f36568.css.map": "/NakamaCraze/static/css/main.a9f36568.css.map",
+    "main.4d1c4fdf.js.map": "/NakamaCraze/static/js/main.4d1c4fdf.js.map",
     "787.442138c0.chunk.js.map": "/NakamaCraze/static/js/787.442138c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5db7cd27.css",
-    "static/js/main.44300939.js"
+    "static/css/main.a9f36568.css",
+    "static/js/main.4d1c4fdf.js"
   ]
 }

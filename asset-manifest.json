@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/NakamaCraze/static/css/main.b271a346.css",
-    "main.js": "/NakamaCraze/static/js/main.f71b912f.js",
+    "main.js": "/NakamaCraze/static/js/main.46fe0d3f.js",
     "static/js/787.442138c0.chunk.js": "/NakamaCraze/static/js/787.442138c0.chunk.js",
-    "static/media/logo.gif": "/NakamaCraze/static/media/logo.058dbc2e093e99bee3f6.gif",
     "static/media/MisatoGreen.png": "/NakamaCraze/static/media/MisatoGreen.517c256152a5244c9025.png",
     "static/media/MisatoRed.png": "/NakamaCraze/static/media/MisatoRed.15caddf2260ed80a8358.png",
     "static/media/MisatoBlack.png": "/NakamaCraze/static/media/MisatoBlack.2155ad0621242b4e778e.png",
     "static/media/MisatoPink.png": "/NakamaCraze/static/media/MisatoPink.dea8e7d276211a2461fd.png",
+    "static/media/logo.gif": "/NakamaCraze/static/media/logo.19c4157e9b3cb0b0b270.gif",
     "static/media/LucyPink.png": "/NakamaCraze/static/media/LucyPink.24001b07db188f813f03.png",
     "static/media/LucyGreen.png": "/NakamaCraze/static/media/LucyGreen.5da301241749f5e2d6e2.png",
     "static/media/bg.png": "/NakamaCraze/static/media/bg.b0cebcc031c95a657eed.png",
@@ -36,11 +36,11 @@
     "static/media/craze.png": "/NakamaCraze/static/media/craze.d26070c079fc2d1b96ef.png",
     "index.html": "/NakamaCraze/index.html",
     "main.b271a346.css.map": "/NakamaCraze/static/css/main.b271a346.css.map",
-    "main.f71b912f.js.map": "/NakamaCraze/static/js/main.f71b912f.js.map",
+    "main.46fe0d3f.js.map": "/NakamaCraze/static/js/main.46fe0d3f.js.map",
     "787.442138c0.chunk.js.map": "/NakamaCraze/static/js/787.442138c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b271a346.css",
-    "static/js/main.f71b912f.js"
+    "static/js/main.46fe0d3f.js"
   ]
 }

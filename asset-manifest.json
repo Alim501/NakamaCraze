@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NakamaCraze/static/css/main.13319c0f.css",
-    "main.js": "/NakamaCraze/static/js/main.6534b303.js",
+    "main.css": "/NakamaCraze/static/css/main.fd7cbddb.css",
+    "main.js": "/NakamaCraze/static/js/main.86667596.js",
     "static/js/787.442138c0.chunk.js": "/NakamaCraze/static/js/787.442138c0.chunk.js",
     "static/media/logo.gif": "/NakamaCraze/static/media/logo.c58d2af37287fb12cefa.gif",
     "static/media/bg-lg.png": "/NakamaCraze/static/media/bg-lg.b0cebcc031c95a657eed.png",
@@ -60,15 +60,16 @@
     "static/media/roadradio_bold.otf": "/NakamaCraze/static/media/roadradio_bold.cdfd284aa66f33967ed5.otf",
     "static/media/RoadRadio.woff": "/NakamaCraze/static/media/RoadRadio.03c22b5cfda4663033fe.woff",
     "static/media/RoadRadio-Light.woff": "/NakamaCraze/static/media/RoadRadio-Light.fc351fca4e6052f33441.woff",
+    "static/media/craze-yellow.png": "/NakamaCraze/static/media/craze-yellow.348db3cc707ab65ca5a4.png",
     "static/media/craze.png": "/NakamaCraze/static/media/craze.d26070c079fc2d1b96ef.png",
     "static/media/price.png": "/NakamaCraze/static/media/price.96642ce3c37ee431aa9f.png",
     "index.html": "/NakamaCraze/index.html",
-    "main.13319c0f.css.map": "/NakamaCraze/static/css/main.13319c0f.css.map",
-    "main.6534b303.js.map": "/NakamaCraze/static/js/main.6534b303.js.map",
+    "main.fd7cbddb.css.map": "/NakamaCraze/static/css/main.fd7cbddb.css.map",
+    "main.86667596.js.map": "/NakamaCraze/static/js/main.86667596.js.map",
     "787.442138c0.chunk.js.map": "/NakamaCraze/static/js/787.442138c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13319c0f.css",
-    "static/js/main.6534b303.js"
+    "static/css/main.fd7cbddb.css",
+    "static/js/main.86667596.js"
   ]
 }

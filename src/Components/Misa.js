@@ -4,12 +4,17 @@ import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
 import before from "../1.png"
 import after from "../2.png"
-import MisaPink from "../Colors/MisaPink.png"
+import MisaPink from "../Colors/Misa/MisaPink.png"
 import price from "../price.png"
-import MisaGreen from "../Colors/MisaGreen.png"
-import MisaRed from "../Colors/MisaRed.png"
-import MisaWhite from "../Colors/MisaWhite.png"
-import MisaBlack from "../Colors/MisaBlack.png"
+import MisaGreen from "../Colors/Misa/MisaGreen.png"
+import MisaRed from "../Colors/Misa/MisaRed.png"
+import MisaWhite from "../Colors/Misa/MisaWhite.png"
+import MisaBlack from "../Colors/Misa/MisaBlack.png"
+import MisaPink_sm from "../Colors/Misa/MisaPink-sm.png"
+import MisaGreen_sm from "../Colors/Misa/MisaGreen-sm.png"
+import MisaRed_sm from "../Colors/Misa/MisaRed-sm.png"
+import MisaWhite_sm from "../Colors/Misa/MisaWhite-sm.png"
+import MisaBlack_sm from "../Colors/Misa/MisaBlack-sm.png"
 
 function Misa() {
     return (
@@ -23,6 +28,7 @@ function Misa() {
                                 <Image fluid
                                     className="d-block w-100"
                                     src={MisaBlack}
+                                    srcSet={`${MisaBlack_sm} 576w`}
                                     alt="First slide"
                                 />
                             </Carousel.Item>
@@ -30,6 +36,7 @@ function Misa() {
                                 <Image fluid
                                     className="d-block w-100"
                                     src={MisaWhite}
+                                    srcSet={`${MisaWhite_sm} 576w`}
                                     alt="Second slide"
                                 />
                             </Carousel.Item>
@@ -37,6 +44,7 @@ function Misa() {
                                 <Image fluid
                                     className="d-block w-100"
                                     src={MisaGreen}
+                                    srcSet={`${MisaGreen_sm} 576w`}
                                     alt="Third slide"
                                 />
                             </Carousel.Item>
@@ -44,6 +52,7 @@ function Misa() {
                                 <Image fluid
                                     className="d-block w-100"
                                     src={MisaRed}
+                                    srcSet={`${MisaRed_sm} 576w`}
                                     alt="Fourht slide"
                                 />
                             </Carousel.Item>
@@ -51,6 +60,7 @@ function Misa() {
                                 <Image fluid
                                     className="d-block w-100"
                                     src={MisaPink}
+                                    srcSet={`${MisaPink_sm} 576w`}
                                     alt="Fith slide"
                                 />
                             </Carousel.Item>
@@ -58,10 +68,10 @@ function Misa() {
                     </Col>
                     <Col className="text-center pb-5 d-grid" sm={5}>
                         <div>
-                        <h1 className="text-yellow m-0 RoadRadio name">HOODIE "MISA"</h1>
-                        <div className="text-white mb-4 pb-2 h4">DEATH NOTE</div>
-                        <div className="border-top d-grid d-sm-flex border-bottom py-2 mb-2 align-items-center justify-content-center">
-                            <div className="d-flex">
+                        <h1 className="text-yellow m-0 RoadRadio">HOODIE "MISA"</h1>
+                        <div className="text-white mb-4 pb-sm-2 h4">DEATH NOTE</div>
+                        <div className="border-top  d-flex border-bottom py-2 mb-2 align-items-center justify-content-center">
+                            
                             <input type="radio" className="btn-check" name="Misa_color" id="Misa_option1" autoComplete="off" />
                             <label className=" color red shadow mx-1" for="Misa_option1"></label>
 
@@ -76,12 +86,11 @@ function Misa() {
 
                             <input type="radio" className="btn-check" name="Misa_color" id="Misa_option5" autoComplete="off" />
                             <label className=" color black shadow mx-1" for="Misa_option5"></label>
-                            </div>
-                            <div className="d-flex justify-content-center">
+                            
                             <h2 className="text-white border-right px-2 my-2  RoadRadio">S</h2>
                             <h2 className="text-white border-right px-2 my-2 RoadRadio">M</h2>
                             <h2 className="text-white px-2 my-2 RoadRadio">L</h2>
-                            </div>
+                           
                         </div>
                         <div className="d-flex p-3 mb-3 justify-content-center">
                             <img className="quote" alt="before" src={before} />

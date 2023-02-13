@@ -12,7 +12,6 @@ import Lucy from './Components/Lucy';
 import Misa from './Components/Misa';
 import Mai from './Components/Mai';
 import { useState, useEffect } from 'react';
-
 function App() {
   const [loading, setLoading] = useState(false)
   useEffect(() => {
@@ -25,9 +24,10 @@ function App() {
     <div className='App'>
 
       <div>
+      <Header></Header>
         <div className="bg">
-          <Header></Header>
-          <div className='w-50 text-center mx-auto d-flex align-items-center h-100'>
+          
+          <div className=' w-sm-100 text-center mx-auto d-flex align-items-center h-100'>
             {
               loading ?
                   <Image fluid

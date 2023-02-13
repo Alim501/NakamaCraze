@@ -29,7 +29,7 @@ p{
 .bg{
   background: center url(bg.png);
   background-size: cover;
-  height: 63vw;
+  height: 100vh;
 }
 .line-short{
   width: 3px;
@@ -137,17 +137,45 @@ border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-colo
 .footerlogo{
   height: 100px;
 }
-.name{
-  height: 65px;
-}
 .font-weight-revert{
   font-weight: revert;
 }
 .h4-min{
   font-size: 1.3rem;
 }
+.w-sm-100{
+  width: 50%;
+}
+.navbar-toggler{
+  border: none !important;
+  --bs-navbar-toggler-icon-bg:url(menu.png) !important;
+}
+
+@media(min-width: 2000px){
+
+  .bg{
+    background: center url(bg-lg.png);
+  }
+}
 @media(max-width: 576px){
+  .offcanvas-body{
+    background-color: #000;
+  }
+  .navbar-collapse{
+    background-color: #faee51;
+  }
   .section{
-    font-size: 2rem;
+    font-size: 2.75rem;
+  }
+  .bg{
+    background: center url(bg-sm.png);
+    background-size: cover;
+  }
+  .w-sm-100{
+    width: 85% !important;
+  }
+  .color{
+    width: 1.5rem;
+    height: 50px;
   }
 }

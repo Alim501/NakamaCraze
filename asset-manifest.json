@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NakamaCraze/static/css/main.0c4794f3.css",
-    "main.js": "/NakamaCraze/static/js/main.86667596.js",
+    "main.css": "/NakamaCraze/static/css/main.18e63c73.css",
+    "main.js": "/NakamaCraze/static/js/main.018bb7f3.js",
     "static/js/787.442138c0.chunk.js": "/NakamaCraze/static/js/787.442138c0.chunk.js",
     "static/media/logo.gif": "/NakamaCraze/static/media/logo.c58d2af37287fb12cefa.gif",
     "static/media/bg-lg.png": "/NakamaCraze/static/media/bg-lg.b0cebcc031c95a657eed.png",
@@ -54,7 +54,11 @@
     "static/media/MaiBlack-sm.png": "/NakamaCraze/static/media/MaiBlack-sm.0550c96896110d5a9449.png",
     "static/media/Misato.png": "/NakamaCraze/static/media/Misato.64c57d910dfbc1a3efc4.png",
     "static/media/LucyBlack-sm.png": "/NakamaCraze/static/media/LucyBlack-sm.bc97f6df0344f13517ca.png",
+    "static/media/Misa-sm.png": "/NakamaCraze/static/media/Misa-sm.834e3a9c3d920540520f.png",
     "static/media/Mai.png": "/NakamaCraze/static/media/Mai.e69a3409a05cad0e8f0b.png",
+    "static/media/Misato-sm.png": "/NakamaCraze/static/media/Misato-sm.4be7a9d68d89cd71b99d.png",
+    "static/media/Lucy-sm.png": "/NakamaCraze/static/media/Lucy-sm.914ae7dfc71340737a51.png",
+    "static/media/Mai-sm.png": "/NakamaCraze/static/media/Mai-sm.94398d3404a26d8fb07a.png",
     "static/media/logo2.png": "/NakamaCraze/static/media/logo2.4d996f205214a8ad1d3c.png",
     "static/media/bg-sm.png": "/NakamaCraze/static/media/bg-sm.c3bba81827bb33ad449e.png",
     "static/media/roadradio_bold.otf": "/NakamaCraze/static/media/roadradio_bold.cdfd284aa66f33967ed5.otf",
@@ -64,12 +68,12 @@
     "static/media/craze.png": "/NakamaCraze/static/media/craze.d26070c079fc2d1b96ef.png",
     "static/media/price.png": "/NakamaCraze/static/media/price.96642ce3c37ee431aa9f.png",
     "index.html": "/NakamaCraze/index.html",
-    "main.0c4794f3.css.map": "/NakamaCraze/static/css/main.0c4794f3.css.map",
-    "main.86667596.js.map": "/NakamaCraze/static/js/main.86667596.js.map",
+    "main.18e63c73.css.map": "/NakamaCraze/static/css/main.18e63c73.css.map",
+    "main.018bb7f3.js.map": "/NakamaCraze/static/js/main.018bb7f3.js.map",
     "787.442138c0.chunk.js.map": "/NakamaCraze/static/js/787.442138c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c4794f3.css",
-    "static/js/main.86667596.js"
+    "static/css/main.18e63c73.css",
+    "static/js/main.018bb7f3.js"
   ]
 }

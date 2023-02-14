@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NakamaCraze/static/css/main.13ceb415.css",
-    "main.js": "/NakamaCraze/static/js/main.1ddafa8b.js",
+    "main.css": "/NakamaCraze/static/css/main.366495a6.css",
+    "main.js": "/NakamaCraze/static/js/main.35db734c.js",
     "static/js/787.442138c0.chunk.js": "/NakamaCraze/static/js/787.442138c0.chunk.js",
     "static/media/logo.gif": "/NakamaCraze/static/media/logo.c58d2af37287fb12cefa.gif",
     "static/media/bg-lg.png": "/NakamaCraze/static/media/bg-lg.b0cebcc031c95a657eed.png",
@@ -67,12 +67,12 @@
     "static/media/craze.png": "/NakamaCraze/static/media/craze.d26070c079fc2d1b96ef.png",
     "static/media/price.png": "/NakamaCraze/static/media/price.96642ce3c37ee431aa9f.png",
     "index.html": "/NakamaCraze/index.html",
-    "main.13ceb415.css.map": "/NakamaCraze/static/css/main.13ceb415.css.map",
-    "main.1ddafa8b.js.map": "/NakamaCraze/static/js/main.1ddafa8b.js.map",
+    "main.366495a6.css.map": "/NakamaCraze/static/css/main.366495a6.css.map",
+    "main.35db734c.js.map": "/NakamaCraze/static/js/main.35db734c.js.map",
     "787.442138c0.chunk.js.map": "/NakamaCraze/static/js/787.442138c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13ceb415.css",
-    "static/js/main.1ddafa8b.js"
+    "static/css/main.366495a6.css",
+    "static/js/main.35db734c.js"
   ]
 }

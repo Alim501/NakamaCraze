@@ -1,38 +1,219 @@
-.App {
-  text-align: center;
+p{
+  font-size: 0.9rem;
+  line-height: 1;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: RoadRadioBold;
+  src: url(Assets/roadradio_bold.otf); 
+ }
+ @font-face {
+  font-family: RoadRadio;
+  src: url(Assets/RoadRadio.woff); 
+ }
+ .RoadRadio{
+  font-family: RoadRadio;
+ }
+ .section {
+  font-family: RoadRadioBold;
+  font-size: 3.5rem;
+  color: #000;
+ }
+ .slicer{
+  height: 2px;
+  background-color: #faee51;
+ }
+ @font-face {
+  font-family: RoadRadioLight;
+  src: url(Assets/RoadRadio-Light.woff); 
+ }
+.bg{
+  background: center url(Assets/bg.png);
+  background-size: cover;
+  height: 100vh;
 }
+.line-short{
+  width: 3px;
+  height: 150px;
+}
+.line-long{
+  width: 3px;
+  height: 575px;
+}
+.design{
+  background-color: #f3f3f3;
+}
+.bg-yellow{
+  background-color: #faee51;
+}
+.App{
+  background-color: black;
+}
+.text-yellow{
+  color: #faee51;
+}
+.red{
+  background-color: #af0e22;
+}
+.green{
+  background-color: #9dab89;
+}
+.pink{
+  background-color: #ccaf9c;
+}
+.white{
+  background-color: #d4d4d4;
+}
+.black{
+  background-color: #242324;
+}
+.btn-check:checked+.color{
+ border-color: #faee51;
+}
+.color{
+  border: 2px solid #0b0b0b;  
+  height: 55px;
+  width: 45px;
+  border-radius: 13px;
+}
+.border-right{
+border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+}
+.quote{
+  width: 28px;
+  height: 23px;
+}
+.bg-lightWhite{
+  background-color: #f3f3f3;
+}
+.buy-btn{
+  border: solid 4px #faee51 !important;
+  background-color: #000 !important;
+  font-size: 2.6rem !important;
+}
+.buy-btn:hover{
+  background-color: #faee51 !important;
+  color: #0b0b0b !important;
+}
+.text-typing
+{
+    white-space:nowrap;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+}
+.carousel-inner{
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+:root{
+  font-size: 25px !important;
+  --bs-body-line-height: 0.9  !important;
+  --bs-body-font-family: RoadRadioLight !important;
+}
+.w-28{
+  width: 28%;
+}
+.container-fluid{
+  max-width: 1450px;
+}
+.fadex + .carousel-item-end{
+  animation: shadow 0.7s linear;
+}
+.fadex + .carousel-item-start{
+  animation: shadow 0.7s linear;
+}
+.fadex + .carousel-item-next{
+  animation: unset !important;
+}
+.fadex + .carousel-item-prev{
+  animation: unset !important;
+}
+@keyframes shadow {
+  from {filter: brightness(1);}
+  to {filter: brightness(0);}
+  }
+.footerLink{
+  text-decoration: none ;
+}
+.footerlogo{
+  height: 4rem;
+}
+.font-weight-revert{
+  font-weight: revert;
+}
+.h4-min{
+  font-size: 1.3rem;
+}
+.w-sm-100{
+  width: 50%;
+}
+.navbar-toggler{
+  border: none !important;
+  --bs-navbar-toggler-icon-bg:url(Assets/menu.png) !important;
+}
+.position_absolute{
+  position: absolute !important;
+}
+.z-index-10{
+  z-index: 10;
+}
+@media(min-width: 2000px){
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .bg{
+    background: center url(Assets/bg-lg.png);
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media(max-width: 576px){
+  .position_absolute{
+    position: fixed !important;
   }
-  to {
-    transform: rotate(360deg);
+  .offcanvas-body{
+    background-color: #000;
+  }
+  .navbar-collapse{
+    background-color: #faee51;
+  }
+  .section{
+    font-size: 2.1rem;
+  }
+  .bg{
+    background: center url(Assets/bg-sm.png);
+    background-size: cover;
+  }
+  .w-sm-100{
+    width: 85% !important;
+  }
+  .color{
+    width: 1.3rem;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .footerlogo{
+    height: unset;
+    width: 100%;
+  }
+  p{
+    font-size: 0.7rem;
+  }
+  .quote{
+    width: 22px;
+    height: 17px;
+  }
+  .button-img{
+    width: 83%;
+  }
+  .p-sm{
+    font-size: 0.7rem;
+  }
+  .h1-sm{
+    font-size: 1.2rem;
+  }
+  .h4-min{
+    font-size: 0.8rem;
+  }
+  .title{
+    font-size: 1.1rem !important;
+  }
+  .hyeta{
+    line-height: 1.2;
   }
 }

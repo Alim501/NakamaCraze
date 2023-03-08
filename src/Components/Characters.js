@@ -7,45 +7,62 @@ import Misato_lg from "../Characters/Misato-lg.png"
 import Misa_lg from "../Characters/Misa-lg.png"
 import Mai_lg from "../Characters/Mai-lg.png"
 import Lucy_lg from "../Characters/Lucy-lg.png"
+import Misato_sm from "../Characters/Misato-sm.png"
+import Misa_sm from "../Characters/Misa-sm.png"
+import Mai_sm from "../Characters/Mai-sm.png"
+import Lucy_sm from "../Characters/Lucy-sm.png"
+import { Image } from 'react-bootstrap';
 
 function Characters() {
   return (
     <div className='bg-lightWhite'>
-        <h1 className='text-center font-weight-bold section design pt-3'>DESIGN</h1>
-    <Carousel variant="dark" indicators={false}>
-      <Carousel.Item>
-        <img
-          className="d-block w-100 border-white"
-          src={Misato_lg}
-          srcSet={`${Misato} 1920w, ${Misato_lg} 2000w`}
-          alt="First slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100 border-white"
-          src={Misa_lg}
-          srcSet={`${Misa} 1920w, ${Misa_lg} 2000w`}
-          alt="Second slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100 border-white"
-          src={Mai_lg}
-          srcSet={`${Mai} 1920w, ${Mai_lg} 2000w`}
-          alt="Third slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100 border-white"
-          src={Lucy_lg}
-          srcSet={`${Lucy} 1920w, ${Lucy_lg} 2000w`}
-          alt="Fourth slide"
-        />
-      </Carousel.Item>
-    </Carousel>
+      <h1 className='text-center font-weight-bold section design pt-3'>DESIGN</h1>
+      <Carousel variant="dark" className='pt-sm-0 py-3' indicators={false}>
+        <Carousel.Item>
+          <picture>
+            <source media="(max-width:576px)" srcSet={Misato_sm}></source>
+            <source media="(min-width:2000px)" srcSet={Misato_lg}></source>
+            <Image fluid
+              className="d-block w-100 border-white"
+              src={Misato}
+              alt="First slide"
+            />
+          </picture>
+        </Carousel.Item>
+        <Carousel.Item>
+          <picture>
+            <source media="(max-width:576px)" srcSet={Misa_sm}></source>
+            <source media="(min-width:2000px)" srcSet={Misa_lg}></source>
+            <Image fluid
+              className="d-block w-100 border-white"
+              src={Misa}
+              alt="First slide"
+            />
+          </picture>
+        </Carousel.Item>
+        <Carousel.Item>
+          <picture>
+            <source media="(max-width:576px)" srcSet={Mai_sm}></source>
+            <source media="(min-width:2000px)" srcSet={Mai_lg}></source>
+            <Image fluid
+              className="d-block w-100 border-white"
+              src={Mai}
+              alt="First slide"
+            />
+          </picture>
+        </Carousel.Item>
+        <Carousel.Item>
+          <picture>
+            <source media="(max-width:576px)" srcSet={Lucy_sm}></source>
+            <source media="(min-width:2000px)" srcSet={Lucy_lg}></source>
+            <Image fluid
+              className="d-block w-100 border-white"
+              src={Lucy}
+              alt="First slide"
+            />
+          </picture>
+        </Carousel.Item>
+      </Carousel>
     </div>
   );
 }

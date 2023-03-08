@@ -20,88 +20,100 @@ function Lucy() {
     return (
         <div >
             <div className="slicer"></div>
-            <Container fluid className="pt-5">
+            <Container fluid className="py-4 pt-sm-5 pb-sm-0">
                 <Row>
                     <Col sm={7}>
                         <Carousel interval={null} controls={false}>
                             <Carousel.Item className="fadex">
-                                <Image fluid
-                                    className="d-block w-100"
-                                    src={LucyWhite}
-                                    srcSet={`${LucyWhite_sm} 576w`}
-                                    alt="First slide"
-                                />
+                                <picture>
+                                    <source media="(max-width:576px)" srcSet={LucyWhite_sm}></source>
+                                    <Image fluid
+                                        className="d-block w-100"
+                                        src={LucyWhite}
+
+                                        alt="First slide"
+                                    />
+                                </picture>
+
                             </Carousel.Item>
                             <Carousel.Item className="fadex">
-                                <Image fluid
-                                    className="d-block w-100"
-                                    src={LucyBlack}
-                                    srcSet={`${LucyBlack_sm} 576w`}
-                                    alt="Second slide"
-                                />
+                                <picture>
+                                    <source media="(max-width:576px)" srcSet={LucyBlack_sm}></source>
+                                    <Image fluid
+                                        className="d-block w-100"
+                                        src={LucyBlack}
+                                        alt="First slide"
+                                    />
+                                </picture>
                             </Carousel.Item>
                             <Carousel.Item className="fadex">
-                                <Image fluid
-                                    className="d-block w-100"
-                                    src={LucyGreen}
-                                    srcSet={`${LucyGreen_sm} 576w`}
-                                    alt="Third slide"
-                                />
+                                <picture>
+                                    <source media="(max-width:576px)" srcSet={LucyGreen_sm}></source>
+                                    <Image fluid
+                                        className="d-block w-100"
+                                        src={LucyGreen}
+                                        alt="First slide"
+                                    />
+                                </picture>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Image fluid
-                                    className="d-block w-100"
-                                    src={LucyRed}
-                                    srcSet={`${LucyRed_sm} 576w`}
-                                    alt="Fourht slide"
-                                />
+                                <picture>
+                                    <source media="(max-width:576px)" srcSet={LucyRed_sm}></source>
+                                    <Image fluid
+                                        className="d-block w-100"
+                                        src={LucyRed}
+                                        alt="First slide"
+                                    />
+                                </picture>
                             </Carousel.Item>
                             <Carousel.Item className="fadex">
-                                <Image fluid
-                                    className="d-block w-100"
-                                    src={LucyPink}
-                                    srcSet={`${LucyPink_sm} 576w`}
-                                    alt="Fith slide"
-                                />
+                                <picture>
+                                    <source media="(max-width:576px)" srcSet={LucyPink_sm}></source>
+                                    <Image fluid
+                                        className="d-block w-100"
+                                        src={LucyPink}
+                                        alt="First slide"
+                                    />
+                                </picture>
                             </Carousel.Item>
                         </Carousel>
                     </Col>
-                    <Col className="text-center pb-5 d-grid" sm={5}>
+                    <Col className="text-center pb-sm-5 pb-4 d-grid" sm={5}>
                         <div>
-                        <h1 className="text-yellow m-0 RoadRadio ">HOODIE "LUCY"</h1>
-                        <div className="text-white mb-4 pb-sm-2 h4">CYBERPUNK: EDGERUNNERS</div>
-                        <div className="border-top  d-flex border-bottom py-2 mb-2 align-items-center justify-content-center">
-                           
-                            <input type="radio" className="btn-check" name="lucy_color" id="lucy_option1" autoComplete="off" />
-                            <label className=" color red shadow mx-1" for="lucy_option1"></label>
+                            <h1 className="text-yellow m-0 RoadRadio ">HOODIE "LUCY"</h1>
+                            <div className="text-white mb-sm-4 pb-sm-2 h4 title">CYBERPUNK: EDGERUNNERS</div>
+                            <div className="border-top  d-flex border-bottom py-2 mb-2 align-items-center justify-content-center">
 
-                            <input type="radio" className="btn-check" name="lucy_color" id="lucy_option2" autoComplete="off" />
-                            <label className=" color green shadow " for="lucy_option2"></label>
+                                <input type="radio" className="btn-check" name="lucy_color" id="lucy_option1" autoComplete="off" />
+                                <label className=" color red shadow mx-1" for="lucy_option1"></label>
 
-                            <input type="radio" className="btn-check" name="lucy_color" id="lucy_option3" autoComplete="off" />
-                            <label className=" color pink shadow mx-1" for="lucy_option3"></label>
+                                <input type="radio" className="btn-check" name="lucy_color" id="lucy_option2" autoComplete="off" />
+                                <label className=" color green shadow " for="lucy_option2"></label>
 
-                            <input type="radio" className="btn-check" name="lucy_color" id="lucy_option4" autoComplete="off" />
-                            <label className=" color white shadow " for="lucy_option4"></label>
+                                <input type="radio" className="btn-check" name="lucy_color" id="lucy_option3" autoComplete="off" />
+                                <label className=" color pink shadow mx-1" for="lucy_option3"></label>
 
-                            <input type="radio" className="btn-check" name="lucy_color" id="lucy_option5" autoComplete="off" />
-                            <label className=" color black shadow mx-1" for="lucy_option5"></label>
-                           
-                            <h2 className="text-white border-right px-2 my-2 RoadRadio">S</h2>
-                            <h2 className="text-white border-right px-2 my-2 RoadRadio">M</h2>
-                            <h2 className="text-white px-2 my-2 RoadRadio">L</h2>
-                            
+                                <input type="radio" className="btn-check" name="lucy_color" id="lucy_option4" autoComplete="off" />
+                                <label className=" color white shadow " for="lucy_option4"></label>
+
+                                <input type="radio" className="btn-check" name="lucy_color" id="lucy_option5" autoComplete="off" />
+                                <label className=" color black shadow mx-1" for="lucy_option5"></label>
+
+                                <h2 className="text-white border-right pe-1 px-sm-2 my-2 RoadRadio">S</h2>
+                                <h2 className="text-white border-right px-1  px-sm-2 my-2 RoadRadio">M</h2>
+                                <h2 className="text-white ps-1 px-sm-2 my-2 RoadRadio">L</h2>
+
+                            </div>
+                            <div className="d-flex px-sm-3 py-2 py-sm-3 justify-content-center">
+                                <img className="quote" alt="before" src={before} />
+                                <p className="text-white pt-3 align-items-center d-flex">ТЕБЕ НИКОГДА НЕ НУЖНО БЫЛО СПАСАТЬ МЕНЯ</p>
+                                <img className="quote mt-5" alt="after" src={after} />
+                            </div>
                         </div>
-                        <div className="d-flex p-3 mb-3 justify-content-center">
-                            <img className="quote" alt="before" src={before} />
-                            <p className="text-white pt-3 align-items-center d-flex">ТЕБЕ НИКОГДА НЕ НУЖНО БЫЛО СПАСАТЬ МЕНЯ</p>
-                            <img className="quote mt-5" alt="after" src={after} />
-                        </div>
-                        </div>
-                        <Image fluid
-                            className="align-self-end mx-auto"
-                                src={price}
-                            />
+                        <Image 
+                            className="align-self-end mx-auto button-img pt-2 pt-sm-0"
+                            src={price}
+                        />
                     </Col>
                 </Row>
             </Container >

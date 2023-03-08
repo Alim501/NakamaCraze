@@ -12,6 +12,7 @@ import Lucy from './Components/Lucy';
 import Misa from './Components/Misa';
 import Mai from './Components/Mai';
 import { useState, useEffect } from 'react';
+import Goods2 from './Components/Goods2';
 function App() {
   const [loading, setLoading] = useState(false)
   useEffect(() => {
@@ -22,9 +23,12 @@ function App() {
   }, [])
   return (
     <div className='App'>
-
+        <Goods2></Goods2>
+        <Mai></Mai>
       <div>
-      <Header></Header>
+        
+        
+      {/* <Header></Header>
         <div className="bg">
           
           <div className=' w-sm-100 text-center mx-auto d-flex align-items-center h-100'>
@@ -45,7 +49,7 @@ function App() {
         <Lucy></Lucy>
         <Mai></Mai>
         <Delivery></Delivery>
-        <Contacts></Contacts> 
+        <Contacts></Contacts>  */}
       </div>
     </div>
   );

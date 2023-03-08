@@ -135,7 +135,7 @@ border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-colo
   text-decoration: none ;
 }
 .footerlogo{
-  height: 100px;
+  height: 4rem;
 }
 .font-weight-revert{
   font-weight: revert;
@@ -150,7 +150,12 @@ border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-colo
   border: none !important;
   --bs-navbar-toggler-icon-bg:url(menu.png) !important;
 }
-
+.position_absolute{
+  position: absolute !important;
+}
+.z-index-10{
+  z-index: 10;
+}
 @media(min-width: 2000px){
 
   .bg{
@@ -158,6 +163,9 @@ border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-colo
   }
 }
 @media(max-width: 576px){
+  .position_absolute{
+    position: fixed !important;
+  }
   .offcanvas-body{
     background-color: #000;
   }
@@ -165,7 +173,7 @@ border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-colo
     background-color: #faee51;
   }
   .section{
-    font-size: 2.75rem;
+    font-size: 2.1rem;
   }
   .bg{
     background: center url(bg-sm.png);
@@ -175,7 +183,37 @@ border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-colo
     width: 85% !important;
   }
   .color{
-    width: 1.5rem;
-    height: 50px;
+    width: 1.3rem;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .footerlogo{
+    height: unset;
+    width: 100%;
+  }
+  p{
+    font-size: 0.7rem;
+  }
+  .quote{
+    width: 22px;
+    height: 17px;
+  }
+  .button-img{
+    width: 83%;
+  }
+  .p-sm{
+    font-size: 0.7rem;
+  }
+  .h1-sm{
+    font-size: 1.2rem;
+  }
+  .h4-min{
+    font-size: 0.8rem;
+  }
+  .title{
+    font-size: 1.1rem !important;
+  }
+  .hyeta{
+    line-height: 1.2;
   }
 }
